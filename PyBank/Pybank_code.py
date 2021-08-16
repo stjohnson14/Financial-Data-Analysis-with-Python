@@ -42,15 +42,6 @@ print(f"The average change is {average_change}")
 print(f"The greatest increase in profits was {PL_change[25]} on {date[25]} ")
 print(f"The greatest decrease was {PL_change[44]} on {date[44]}")
 
-# output = (
-#    f"\n Financial Analysis \n"
-#    f"------------------------------\n"
-#    f"Total Months: {months}\n"
-#    f"Total: ${net_total}\n"
-#    f"Average  Change: ${average_change}\n"
-#    f"Greatest Increase in Profits: {date[25]} (${PL_change[25]})\n"
-#    f"Greatest Decrease in Profits: {date[44]} (${PL_change[44]})\n")
-
 with open(budget_csv_output, "w") as output_file:
     
     output_file.write("\n Financial Analysis \n")
